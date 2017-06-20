@@ -1,4 +1,4 @@
-# Pjango
+# Pjango-Template
 
 
 <p align="center">
@@ -9,6 +9,35 @@
    <img src="https://img.shields.io/badge/License-Apache-lightgrey.svg?style=flat">
 </p>
 
-A Swift server-side framework working like Django. Using MVC to design your website.
+Simple Demo for [Pjango](https://github.com/enums/pjango).
 
-Need OpenSSL 1.0.2: [https://gist.github.com/mbejda/a1dabc45b32aaf8b25ae5e8d05923518](https://gist.github.com/mbejda/a1dabc45b32aaf8b25ae5e8d05923518)
+## Usage
+
+- Clone this repo.
+- macOS: Use Swift Package Manager to gen a xcodeproj:
+
+```bash
+$ swift package generate-xcodeproj
+```
+
+
+- Linux: Use Swift Package Manager to compiling:
+
+```bash
+$ swift build
+```
+
+- Run:
+
+```bash
+$ ./.build/debug/Pjango-Template 8080
+```
+
+
+## More Component
+
+See: [https://github.com/enums/pjango](https://github.com/enums/pjango)
+
+## Contact
+
+Mail me: [enum@enumsblog.com](enum@enumsblog.com)
