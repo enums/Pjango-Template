@@ -33,6 +33,7 @@ $ swift build
 $ ./.build/debug/Pjango-Template 8080
 ```
 
+Tips: Maybe need to edit the `WORKSPACE_PATH` in `MainPjangoDelegate.swift`.
 
 ## More Component
 
