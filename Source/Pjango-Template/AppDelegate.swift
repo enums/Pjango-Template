@@ -1,5 +1,5 @@
 //
-//  MainPjangoDelegate.swift
+//  AppDelegate.swift
 //  Pjango-Demo
 //
 //  Created by 郑宇琦 on 2017/6/20.
@@ -7,18 +7,19 @@
 //
 
 import Foundation
+import PerfectHTTP
 import Pjango
 
-class MainPjangoDelegate: PjangoDelegate {
+class AppDelegate: PjangoDelegate {
     
     func setSettings() {
         
         // Pjango
         
         #if os(macOS)
-            WORKSPACE_PATH = "/Users/Enum/Developer/macOS/Pjango/Workspace"
+            WORKSPACE_PATH = "/Users/Enum/Developer/macOS/Pjango-Template/Workspace"
         #else
-            WORKSPACE_PATH = "/media/psf/Home/Developer/macOS/Pjango/Workspace"
+            WORKSPACE_PATH = "/media/psf/Home/Developer/macOS/Pjango-Template/Workspace"
         #endif
         
         DEBUG_LOG = true
@@ -38,7 +39,7 @@ class MainPjangoDelegate: PjangoDelegate {
     func setUrls() -> [PCUrlConfig] {
         return [
             
-            pjangoUrl("", IndexView.self, "index"),
+            pjangoUrl("", "index", IndexView.asHandle()),
             
         ]
     }
@@ -48,6 +49,7 @@ class MainPjangoDelegate: PjangoDelegate {
     }
     
     func registerModels() -> [PCModel] {
+        
         return [
             
         ]
@@ -57,6 +59,22 @@ class MainPjangoDelegate: PjangoDelegate {
         
         return [
             
+        ]
+        
+    }
+    
+    func setRequestFilter() -> [(HTTPRequestFilter, HTTPFilterPriority)] {
+        
+        return [
+            
+        ]
+        
+    }
+    
+    func setResponseFilter() -> [(HTTPResponseFilter, HTTPFilterPriority)] {
+        
+        return [
+        
         ]
         
     }

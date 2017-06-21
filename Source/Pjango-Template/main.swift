@@ -10,5 +10,5 @@ import Foundation
 import Pjango
 
 
-PjangoRuntime.run(delegate: MainPjangoDelegate.init())
+PjangoRuntime.run(delegate: AppDelegate.init())
 
