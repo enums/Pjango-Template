@@ -43,39 +43,4 @@ class AppDelegate: PjangoDelegate {
             
         ]
     }
-    
-    func setDB() -> PCDataBase {
-        return PCDataBase.empty
-    }
-    
-    func registerModels() -> [PCModel] {
-        
-        return [
-            
-        ]
-    }
-    
-    func registerPlugins() -> [PCPlugin] {
-        
-        return [
-            
-        ]
-        
-    }
-    
-    func setRequestFilter() -> [(HTTPRequestFilter, HTTPFilterPriority)] {
-        
-        return [
-            
-        ]
-        
-    }
-    
-    func setResponseFilter() -> [(HTTPResponseFilter, HTTPFilterPriority)] {
-        
-        return [
-        
-        ]
-        
-    }
 }
