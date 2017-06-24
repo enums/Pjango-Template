@@ -36,12 +36,12 @@ class AppDelegate: PjangoDelegate {
         
     }
     
-    func setUrls() -> [PCUrlConfig]? {
-        
+    func setUrls() -> [String : [PCUrlConfig]]? {
         return [
-            
-            pjangoUrl("", name: "index", handle: IndexView.asHandle()),
-            
+            "": [
+                pjangoUrl("", name: "index", handle: IndexView.asHandle()),
+            ]
         ]
     }
+    
 }

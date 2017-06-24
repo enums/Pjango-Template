@@ -9,7 +9,7 @@
 import Foundation
 import Pjango
 
-class IndexView: PCView {
+class IndexView: PCDetailView {
     
     override var templateName: String {
         return "index.html"
