@@ -17,22 +17,22 @@ class AppDelegate: PjangoDelegate {
         // Pjango
         
         #if os(macOS)
-            WORKSPACE_PATH = "/Users/Enum/Developer/macOS/Pjango-Template/Workspace"
+            PJANGO_WORKSPACE_PATH = "/Users/Enum/Developer/macOS/Pjango-Template/Workspace"
         #else
-            WORKSPACE_PATH = "/media/psf/Home/Developer/macOS/Pjango-Template/Workspace"
+            PJANGO_WORKSPACE_PATH = "/media/psf/Home/Developer/macOS/Pjango-Template/Workspace"
         #endif
         
-        DEBUG_LOG = true
+        PJANGO_LOG_DEBUG = true
         
         
         
         // Django
         
-        BASE_DIR = ""
+        PJANGO_BASE_DIR = ""
         
-        TEMPLATES_DIR = "templates"
+        PJANGO_TEMPLATES_DIR = "templates"
         
-        STATIC_URL = "static"
+        PJANGO_STATIC_URL = "static"
         
     }
     
