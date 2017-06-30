@@ -9,19 +9,19 @@
    <img src="https://img.shields.io/badge/License-Apache-lightgrey.svg?style=flat">
 </p>
 
-Simple Demo for [Pjango](https://github.com/enums/pjango).
+适用于 [Pjango](https://github.com/enums/pjango) 的基础 Demo。
 
-## Usage
+## 使用方法
 
-- Clone this repo.
-- macOS: Use Swift Package Manager to gen a xcodeproj:
+- 克隆此仓库
+- macOS: 使用下面的命令生成 Xcode 工程进行编译:
 
 ```bash
 $ swift package generate-xcodeproj
 ```
 
 
-- Linux: Use Swift Package Manager to compiling:
+- Linux: 使用`Swift Package Manager`编译:
 
 ```bash
 $ swift build
@@ -33,12 +33,12 @@ $ swift build
 $ ./.build/debug/Pjango-Template 8080
 ```
 
-Tips: Maybe need to edit the `WORKSPACE_PATH` in `MainPjangoDelegate.swift`.
+Tips: 请根据实际情况编辑环境变量`WORKSPACE_PATH`，存在于`MainPjangoDelegate.swift`文件中.
 
-## More Component
+## 更多组件
 
-See: [https://github.com/enums/pjango](https://github.com/enums/pjango)
+请参考: [https://github.com/enums/pjango](https://github.com/enums/pjango)
 
-## Contact
+## 联系我
 
-Mail me: [enum@enumsblog.com](enum@enumsblog.com)
+发邮件给我: [enum@enumsblog.com](mailto:enum@enumsblog.com)
