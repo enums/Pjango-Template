@@ -38,7 +38,7 @@ class AppDelegate: PjangoDelegate {
     
     func setUrls() -> [String : [PCUrlConfig]]? {
         return [
-            "": [
+            PJANGO_HOST_DEFAULT: [
                 pjangoUrl("", name: "index", handle: IndexView.asHandle()),
             ]
         ]

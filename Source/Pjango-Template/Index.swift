@@ -17,7 +17,7 @@ class IndexView: PCDetailView {
     
     override var viewParam: PCViewParam? {
         return [
-            "_pjango_url_timezone": pjangoUrlReverse(name: "time_zone") ?? "",
+            "_pjango_url_timezone": pjangoUrlReverse(host: PJANGO_HOST_DEFAULT, name: "time_zone") ?? "",
             "_pjango_param_time": Date.init().stringValue,
             "_pjango_param_msg": "Msg from Pjango"
         ]
