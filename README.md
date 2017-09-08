@@ -33,7 +33,7 @@ $ swift build
 $ ./.build/debug/Pjango-Template 8080
 ```
 
-Tips: 请根据实际情况编辑环境变量`WORKSPACE_PATH`，存在于`MainPjangoDelegate.swift`文件中.
+Tips: 请根据实际情况编辑环境变量`WORKSPACE_PATH`，存在于`AppDelegate.swift`文件中.
 
 ## 更多组件
 
